@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width= device-width, initrial-scale=1">
+<title>Bài 5 - tuần 02</title>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="jumbotron text-center" style="margin-bottom: 0">
+		<h1>Bài Tập 5 - Tuần 02</h1>
+		<p>17081181_NGUYENVINHMINHTUYEN_TUAN01-02</p>
+	</div>
+	<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+		<img class="navbar-brand" src="images/logo.png" style="width: 100px;" />
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#">Bài 4</a></li>
+				<li class="nav-item active"><a class="nav-link" href="#">Bài
+						5</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Bài 6</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container my-3">
+		<div class="row justify-content-center mb-3">
+			<div class="col-md-6">
+				<h2>Upload multi-files</h2>
+
+				<form action="Bai05" method="post" enctype="multipart/form-data">
+					<div class="form-group">
+						<label>File #1</label><input type="file"
+							class="form-control-file border" name="file1" />
+					</div>
+					<div class="form-group">
+						<label>File #2</label><input type="file"
+							class="form-control-file border" name="file2" />
+					</div>
+					<div class="form-group">
+						<label>File #3</label><input type="file"
+							class="form-control-file border" name="file3" />
+					</div>
+					<div class="form-group">
+						<label>File #4</label><input type="file"
+							class="form-control-file border" name="file4" />
+					</div>
+					<div class="form-group">
+						<label>File #5</label><input type="file"
+							class="form-control-file border" name="file5" />
+					</div>
+					<button class="btn btn-primary mb-3" type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="jumbotron text-center mb-0">
+		<p>2020 © SoftWave Engineering Department, Information Technology
+			Faculty, IUH.</p>
+	</div>
+</body>
+</html>

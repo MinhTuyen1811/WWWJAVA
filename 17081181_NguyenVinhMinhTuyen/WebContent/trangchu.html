@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width= device-width, initrial-scale=1">
+<title>Bài 5 - tuần 02</title>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="jumbotron text-center" style="margin-bottom: 0">
+		<h1>Bài Tập 4 - Tuần 01</h1>
+		<p>17081181_NGUYENVINHMINHTUYEN_TUAN01-02</p>
+	</div>
+	<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+		<img class="navbar-brand" src="images/logo.png" style="width: 100px;" />
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item active"><a class="nav-link" href="/">Bài
+						4</a></li>
+				<li class="nav-item"><a class="nav-link" href="bai05.html">Bài 5</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Bài 6</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container my-3">
+		<div class="row justify-content-center">
+		<div class="col-sm-8">
+			<form action="Bai04" method="get">
+				<label>Name</label><span class="text-danger">*</span>
+				<div class="form-row">
+					<div class="form-group col">
+						<input type="text" class="form-control" name="FirstName" required="required"/> 
+						<small>First Name</small>
+					</div>
+					<div class="form-group col">
+						<input type="text" class="form-control" name="LastName" required="required" /> 
+						<small>Last Name</small>
+					</div>
+				</div>
+				<div class="form-group">
+					<label>Email:</label><span class="text-danger">*</span>
+					<input type="email" class="form-control" name="Email" required="required">
+				</div>
+				<div class="form-group">
+					<label>Password:</label><span class="text-danger">*</span>
+					<input type="password" class="form-control" name="Password" required="required">
+				</div>
+				<div class="form-group">
+					<label>Facebook:</label>
+					<input type="text" class="form-control" name="Facebook">
+					<small>Enter your Facebook profile URL</small>
+				</div>
+				<div class="form-group">
+					<label>ShortBio:</label>
+					<textarea rows="5" class="form-control" name="ShortBio"></textarea>
+					<small>Share a little infomation about yourself</small>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		</div>
+	</div>
+	<div class="jumbotron text-center mb-0">
+		<p>2020 © SoftWave Engineering Department, Information Technology
+			Faculty, IUH.</p>
+	</div>
+</body>
+</html>
